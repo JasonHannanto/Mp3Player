@@ -1,9 +1,15 @@
-from user import User
+def load_playlist(username):
 
-def load_users(username):
+    playlist = []
+
     with open("user_list.txt") as f:
         for line in f:
-            if username == line:
-                return(True)
-    f.close
-    return(False)
+            if line.strip() == username:
+                print("FOUND USERNAME")
+                playlist = f.next().split(",")
+                print playlist
+                return playlist
+
+    f.close()
+    print("DIDNT RAN")
+    return([])

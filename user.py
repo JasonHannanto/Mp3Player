@@ -1,6 +1,6 @@
 class User(object):
 
-    def __init__(self, username, playlist = []):
+    def __init__(self, username, playlist):
         self.username = username
         self.playlist = playlist
 
