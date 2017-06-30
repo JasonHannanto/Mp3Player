@@ -27,6 +27,7 @@ song,artist,genre,songlocation.mp3
 - Creating Class Objects from File
 
 ### To Do
+- Revamp menu system
 - Revamp User class to have unique playlists
 - Refactor code so that SongPlayer loads Songs and Databases before user interaction
 - Fix bug when user searches for song by name -> add to current song -> skip next song (Moves backwards)

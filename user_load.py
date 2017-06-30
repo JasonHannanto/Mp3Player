@@ -8,6 +8,7 @@ def load_playlist(username):
                 print("FOUND USERNAME")
                 playlist = f.next().split(",")
                 print playlist
+                f.close()
                 return playlist
 
     f.close()
