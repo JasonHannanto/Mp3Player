@@ -1,6 +1,6 @@
 # Mp3Player
 
-(Work-in-Progress) Console based MP3 Player.
+Console based MP3 Player. Just mostly playing around with python...
 
 ### Installing
 
